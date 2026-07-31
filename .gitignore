@@ -1,0 +1,8 @@
+program/.env
+credentials.json
+
+# Archivos generados por ANTLR (no versionar)
+program/SiteLang*.py
+program/SiteLang*.interp
+program/SiteLang*.tokens
+program/__pycache__/
