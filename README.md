@@ -42,5 +42,3 @@ docker run --rm --user "$(id -u):$(id -g)" --env-file program/.env \
   -v "$(pwd)/program":/program lab3-vercel \
   bash -c "antlr -Dlanguage=Python3 -listener SiteLang.g4 && python3 Driver.py site.sl"
 ```
-
-No subas `program/.env`.
